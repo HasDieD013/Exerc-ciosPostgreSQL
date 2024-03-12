@@ -14,4 +14,5 @@ INSERT INTO customers(id, name, street, city, state, credit_limit) VALUES
 (4, 'Jane Ester', 'Av 7 de setembro', 'Erechim', 'RS', 800.00),
 (5, 'Marcos Antônio dos Santos', 'Av Farrapos', 'Porto Alegre', 'RS', 4250.25);
 
-SELECT name FROM customers WHERE state = 'RS';
+SELECT name, street FROM customers WHERE city = 'Porto Alegre';
+
